@@ -10,12 +10,12 @@
 }
 
 .splash {
-	width: 100%;v
-	background-color: #323232;
+	width: 100%;
 	background-position: center;
 	background-size: cover;
 	color: #ffffff !important;
 	min-height: 100vh;
+	float: left;
 }
 	.splash h1 {
 		padding: 20 0;
