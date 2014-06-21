@@ -1,7 +1,11 @@
 
+* {
+	font-family: "Avenir",avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .logo {
 	height: 40px;
-	margin: 20px;
+	margin: 40px;
 }
 
 .splash {
@@ -11,15 +15,44 @@
 	background-position: center;
 	background-size: cover;
 	color: #ffffff !important;
-	min-height: 60vh
+	min-height: 100vh;
 }
-
 	.splash h1 {
-		padding: 150px 0;
+		padding: 20 0;
+		text-shadow: 1px 1px 1px #000;
+	}
+
+	.splash h3 {
+		text-shadow: 1px 1px 1px #000;
+		font-weight: 400;
 	}
 
 .dark {
-	background-color: rgba(0,0,0,0.5);
+	/*background-color: rgba(0,0,0,0.5);*/
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+.vid-container {
+	margin-top: 10vh;
+}
+	.vid-container img {
+		border-radius: 5px;
+		box-shadow: 0 0 15px #000;
+		border: 5px solid #fff;
+	}
+
+.triple-feature {
+	margin: 70px 0;
+}
+
+	.triple-feature p {
+		font-size: 20px;
+	}
+
+.center-feature img {
+	width: 60px;
+	height: auto;
+	padding: 20px 0;
 }
