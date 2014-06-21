@@ -1,4 +1,9 @@
 
+.logo {
+	height: 40px;
+	margin: 20px;
+}
+
 .splash {
 	width: 100%;
 	height: auto;
@@ -6,8 +11,15 @@
 	background-position: center;
 	background-size: cover;
 	color: #ffffff !important;
+	min-height: 60vh
 }
 
 	.splash h1 {
 		padding: 150px 0;
 	}
+
+.dark {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
